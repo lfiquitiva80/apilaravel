@@ -1,0 +1,14 @@
+created:
+    - app/Http/Controllers/EmployeeController.php
+    - database/factories/EmployeeFactory.php
+    - database/migrations/2021_07_15_164817_create_employees_table.php
+    - app/Models/Employee.php
+    - tests/Feature/Http/Controllers/EmployeeControllerTest.php
+    - app/Http/Requests/EmployeeStoreRequest.php
+    - app/Http/Requests/EmployeeUpdateRequest.php
+    - app/Http/Resources/EmployeeCollection.php
+    - app/Http/Resources/EmployeeResource.php
+updated:
+    - routes/api.php
+models:
+    Employee: { title: 'string:400' }

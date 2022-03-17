@@ -1,0 +1,8 @@
+models:
+  Employee:
+    title: string:400
+
+controllers:
+  Employee:
+    resource: api.store, api.update, api.index, api.destroy
+ 
